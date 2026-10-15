@@ -1,0 +1,16 @@
+vehicle_id,type,capacity_kg,cost_per_km,speed_kmph,warehouse_id
+V1,Truck,5000,18.89,34,W4
+V2,Van,500,14.77,55,W5
+V3,Bike,5000,18.72,43,W5
+V4,Truck,5000,17.75,68,W3
+V5,Van,5000,11.74,56,W5
+V6,Truck,2000,6.43,38,W4
+V7,Truck,2000,10.56,44,W5
+V8,Truck,2000,15.03,44,W3
+V9,Truck,500,14.99,55,W3
+V10,Bike,5000,13.87,71,W4
+V11,Truck,2000,9.12,42,W2
+V12,Truck,2000,13.42,61,W2
+V13,Truck,500,10.74,68,W5
+V14,Bike,2000,19.58,78,W1
+V15,Truck,500,17.73,61,W5

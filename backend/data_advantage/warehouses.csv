@@ -1,0 +1,6 @@
+warehouse_id,name,lat,lon,storage_capacity,holding_cost_per_unit,fixed_cost
+W1,Warehouse_1,23.66,83.0643,3449,4.58,2016
+W2,Warehouse_2,24.9992,79.1019,3777,3.39,4773
+W3,Warehouse_3,21.0402,76.4953,2579,4.69,3343
+W4,Warehouse_4,22.3464,80.8124,1161,1.35,4796
+W5,Warehouse_5,21.0934,74.3758,1201,1.78,3767

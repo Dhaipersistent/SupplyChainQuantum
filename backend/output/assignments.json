@@ -1,0 +1,48 @@
+[
+  {
+    "cluster_id": 0,
+    "warehouse_id": "W4",
+    "route": [
+      "C10",
+      "C3"
+    ],
+    "energy": -204396.33408042774,
+    "bitstring": "00001001",
+    "feasible": true
+  },
+  {
+    "cluster_id": 1,
+    "warehouse_id": "W5",
+    "route": [
+      "C8",
+      "C9"
+    ],
+    "energy": -86377.6938187409,
+    "bitstring": "00001001",
+    "feasible": true
+  },
+  {
+    "cluster_id": 2,
+    "warehouse_id": "W1",
+    "route": [
+      "C6",
+      "C1",
+      "C5",
+      "C2"
+    ],
+    "energy": -729904.3413754872,
+    "bitstring": "01000001001010000000000000000000",
+    "feasible": true
+  },
+  {
+    "cluster_id": 3,
+    "warehouse_id": "W2",
+    "route": [
+      "C4",
+      "C7"
+    ],
+    "energy": -138524.21638255598,
+    "bitstring": "10010000",
+    "feasible": true
+  }
+]

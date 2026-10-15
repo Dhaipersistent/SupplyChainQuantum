@@ -1,0 +1,1607 @@
+[
+  {
+    "cluster_id": 0,
+    "customer_ids": [
+      "C10",
+      "C3"
+    ],
+    "candidate_warehouses": [
+      "W1",
+      "W4"
+    ],
+    "warehouse_count": 2,
+    "position_count": 2,
+    "variable_count": 8,
+    "reduced_variable_count": 8,
+    "original_qubo_size": 8,
+    "reduced_qubo_size": 8,
+    "reduction_method": "rqaoa",
+    "reduced_qubo": [
+      [
+        -97194.98812763361,
+        106030.89613923666,
+        106030.89613923666,
+        2452.026810633279,
+        212061.79227847332,
+        212061.79227847332,
+        106030.89613923666,
+        106030.89613923666
+      ],
+      [
+        0.0,
+        -97194.98812763361,
+        2452.026810633279,
+        106030.89613923666,
+        212061.79227847332,
+        212061.79227847332,
+        106030.89613923666,
+        106030.89613923666
+      ],
+      [
+        0.0,
+        0.0,
+        -98055.7455749932,
+        106030.89613923666,
+        106030.89613923666,
+        106030.89613923666,
+        212061.79227847332,
+        212061.79227847332
+      ],
+      [
+        0.0,
+        0.0,
+        0.0,
+        -98055.7455749932,
+        106030.89613923666,
+        106030.89613923666,
+        212061.79227847332,
+        212061.79227847332
+      ],
+      [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        -102287.01174369348,
+        106030.89613923666,
+        106030.89613923666,
+        805.2365879658828
+      ],
+      [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        -102287.01174369348,
+        805.2365879658828,
+        106030.89613923666
+      ],
+      [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        -102914.55892470013,
+        106030.89613923666
+      ],
+      [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        -102914.55892470013
+      ]
+    ],
+    "reduced_qubo_offset": 0.0,
+    "remaining_variable_ids": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7
+    ],
+    "elimination_history": [],
+    "reconstruction_map": [
+      {
+        "original_variable": 0,
+        "active_variable": 0,
+        "factor": 1.0,
+        "constant": 0.0
+      },
+      {
+        "original_variable": 1,
+        "active_variable": 1,
+        "factor": 1.0,
+        "constant": 0.0
+      },
+      {
+        "original_variable": 2,
+        "active_variable": 2,
+        "factor": 1.0,
+        "constant": 0.0
+      },
+      {
+        "original_variable": 3,
+        "active_variable": 3,
+        "factor": 1.0,
+        "constant": 0.0
+      },
+      {
+        "original_variable": 4,
+        "active_variable": 4,
+        "factor": 1.0,
+        "constant": 0.0
+      },
+      {
+        "original_variable": 5,
+        "active_variable": 5,
+        "factor": 1.0,
+        "constant": 0.0
+      },
+      {
+        "original_variable": 6,
+        "active_variable": 6,
+        "factor": 1.0,
+        "constant": 0.0
+      },
+      {
+        "original_variable": 7,
+        "active_variable": 7,
+        "factor": 1.0,
+        "constant": 0.0
+      }
+    ],
+    "qaoa_call_count": 2,
+    "aer_circuit_runs": 0,
+    "variables_removed": 0,
+    "reduction_percentage": 0.0,
+    "hardware_eligible": true,
+    "simulator_sample_feasible": true,
+    "result": {
+      "warehouse_id": "W4",
+      "route": [
+        "C10",
+        "C3"
+      ],
+      "energy": -204396.33408042774,
+      "feasible": true,
+      "bitstring": "00001001",
+      "original_variables": 8,
+      "reduced_variables": 8,
+      "reduction_ratio": 0.0,
+      "solver_sample_feasible": true,
+      "reduced_bitstring": "00001001",
+      "route_distance_km": 1192.139688654056,
+      "travel_cost": 7665.45819804558
+    },
+    "feedback_history": [
+      {
+        "iteration": 1,
+        "feedback": "retained_best_feasible_incumbent",
+        "incumbent_energy": -204396.33408042774,
+        "simulator_sample_feasible": true
+      },
+      {
+        "iteration": 2,
+        "feedback": "retained_best_feasible_incumbent",
+        "incumbent_energy": -204396.33408042774,
+        "simulator_sample_feasible": true
+      }
+    ],
+    "solver": {
+      "name": "warm_start_qaoa_statevector",
+      "energy": -204396.33408042774,
+      "runtime_seconds": 0.1941639579981711,
+      "backend": "statevector_simulator"
+    }
+  },
+  {
+    "cluster_id": 1,
+    "customer_ids": [
+      "C8",
+      "C9"
+    ],
+    "candidate_warehouses": [
+      "W3",
+      "W5"
+    ],
+    "warehouse_count": 2,
+    "position_count": 2,
+    "variable_count": 8,
+    "reduced_variable_count": 8,
+    "original_qubo_size": 8,
+    "reduced_qubo_size": 8,
+    "reduction_method": "rqaoa",
+    "reduced_qubo": [
+      [
+        -44470.1030545105,
+        47414.542418525394,
+        47414.542418525394,
+        5502.3553276002185,
+        94829.08483705079,
+        94829.08483705079,
+        47414.542418525394,
+        47414.542418525394
+      ],
+      [
+        0.0,
+        -44470.1030545105,
+        5502.3553276002185,
+        47414.542418525394,
+        94829.08483705079,
+        94829.08483705079,
+        47414.542418525394,
+        47414.542418525394
+      ],
+      [
+        0.0,
+        0.0,
+        -44687.93216123912,
+        47414.542418525394,
+        47414.542418525394,
+        47414.542418525394,
+        94829.08483705079,
+        94829.08483705079
+      ],
+      [
+        0.0,
+        0.0,
+        0.0,
+        -44687.93216123912,
+        47414.542418525394,
+        47414.542418525394,
+        94829.08483705079,
+        94829.08483705079
+      ],
+      [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        -46790.605580597956,
+        47414.542418525394,
+        47414.542418525394,
+        3876.242312172002
+      ],
+      [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        -46790.605580597956,
+        3876.242312172002,
+        47414.542418525394
+      ],
+      [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        -43463.330550314946,
+        47414.542418525394
+      ],
+      [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        -43463.330550314946
+      ]
+    ],
+    "reduced_qubo_offset": 0.0,
+    "remaining_variable_ids": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7
+    ],
+    "elimination_history": [],
+    "reconstruction_map": [
+      {
+        "original_variable": 0,
+        "active_variable": 0,
+        "factor": 1.0,
+        "constant": 0.0
+      },
+      {
+        "original_variable": 1,
+        "active_variable": 1,
+        "factor": 1.0,
+        "constant": 0.0
+      },
+      {
+        "original_variable": 2,
+        "active_variable": 2,
+        "factor": 1.0,
+        "constant": 0.0
+      },
+      {
+        "original_variable": 3,
+        "active_variable": 3,
+        "factor": 1.0,
+        "constant": 0.0
+      },
+      {
+        "original_variable": 4,
+        "active_variable": 4,
+        "factor": 1.0,
+        "constant": 0.0
+      },
+      {
+        "original_variable": 5,
+        "active_variable": 5,
+        "factor": 1.0,
+        "constant": 0.0
+      },
+      {
+        "original_variable": 6,
+        "active_variable": 6,
+        "factor": 1.0,
+        "constant": 0.0
+      },
+      {
+        "original_variable": 7,
+        "active_variable": 7,
+        "factor": 1.0,
+        "constant": 0.0
+      }
+    ],
+    "qaoa_call_count": 2,
+    "aer_circuit_runs": 0,
+    "variables_removed": 0,
+    "reduction_percentage": 0.0,
+    "hardware_eligible": true,
+    "simulator_sample_feasible": true,
+    "result": {
+      "warehouse_id": "W5",
+      "route": [
+        "C8",
+        "C9"
+      ],
+      "energy": -86377.6938187409,
+      "feasible": true,
+      "bitstring": "00001001",
+      "original_variables": 8,
+      "reduced_variables": 8,
+      "reduction_ratio": 0.0,
+      "solver_sample_feasible": true,
+      "reduced_bitstring": "00001001",
+      "route_distance_km": 800.3211191581333,
+      "travel_cost": 8451.391018309889
+    },
+    "feedback_history": [
+      {
+        "iteration": 1,
+        "feedback": "retained_best_feasible_incumbent",
+        "incumbent_energy": -86377.6938187409,
+        "simulator_sample_feasible": true
+      },
+      {
+        "iteration": 2,
+        "feedback": "retained_best_feasible_incumbent",
+        "incumbent_energy": -86377.6938187409,
+        "simulator_sample_feasible": true
+      }
+    ],
+    "solver": {
+      "name": "warm_start_qaoa_statevector",
+      "energy": -86377.6938187409,
+      "runtime_seconds": 0.18025437600044825,
+      "backend": "statevector_simulator"
+    }
+  },
+  {
+    "cluster_id": 2,
+    "customer_ids": [
+      "C1",
+      "C2",
+      "C5",
+      "C6"
+    ],
+    "candidate_warehouses": [
+      "W2",
+      "W1"
+    ],
+    "warehouse_count": 2,
+    "position_count": 4,
+    "variable_count": 32,
+    "reduced_variable_count": 20,
+    "original_qubo_size": 32,
+    "reduced_qubo_size": 20,
+    "reduction_method": "rqaoa",
+    "reduced_qubo": [
+      [
+        9408373.694770696,
+        1925090.5096890577,
+        2103378.0344299185,
+        2484071.97316436,
+        1912036.537926062,
+        1743067.1767198243,
+        1918268.1028453887,
+        1727142.44808286,
+        1723134.6234809898,
+        3262211.988998708,
+        1532900.2860601475,
+        2105541.4378778953,
+        1910276.510878813,
+        2282812.0490501095,
+        1716623.9322474827,
+        1526389.5948266403,
+        1909966.2755645001,
+        1725401.4651274867,
+        1529497.6007228154,
+        1336775.8752576378
+      ],
+      [
+        0.0,
+        -190234.33742084246,
+        190234.33742084246,
+        0.0,
+        6231.56491932669,
+        190234.33742084246,
+        6231.56491932669,
+        0.0,
+        1146.4898793302655,
+        570703.0122625274,
+        0.0,
+        380468.67484168493,
+        380468.67484168493,
+        190234.33742084246,
+        190234.33742084246,
+        190234.33742084246,
+        190234.33742084246,
+        190234.33742084246,
+        190234.33742084246,
+        190234.33742084246
+      ],
+      [
+        0.0,
+        0.0,
+        -190234.33742084246,
+        10800.322800651405,
+        0.0,
+        6231.56491932669,
+        190234.33742084246,
+        6231.56491932669,
+        0.0,
+        381615.1647210152,
+        1146.4898793302655,
+        380468.67484168493,
+        380468.67484168493,
+        190234.33742084246,
+        190234.33742084246,
+        190234.33742084246,
+        190234.33742084246,
+        190234.33742084246,
+        190234.33742084246,
+        190234.33742084246
+      ],
+      [
+        0.0,
+        0.0,
+        0.0,
+        -185502.03105115454,
+        0.0,
+        0.0,
+        9693.163717637315,
+        190234.33742084246,
+        0.0,
+        190234.33742084246,
+        190234.33742084246,
+        190234.33742084246,
+        190234.33742084246,
+        380468.67484168493,
+        190234.33742084246,
+        190234.33742084246,
+        190234.33742084246,
+        190234.33742084246,
+        190234.33742084246,
+        190234.33742084246
+      ],
+      [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        -184367.76345104387,
+        190234.33742084246,
+        190234.33742084246,
+        190234.33742084246,
+        190234.33742084246,
+        195574.58499848307,
+        0.0,
+        190234.33742084246,
+        190234.33742084246,
+        190234.33742084246,
+        380468.67484168493,
+        380468.67484168493,
+        190234.33742084246,
+        190234.33742084246,
+        190234.33742084246,
+        190234.33742084246
+      ],
+      [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        -190234.33742084246,
+        190234.33742084246,
+        190234.33742084246,
+        5340.2475776405945,
+        380468.67484168493,
+        0.0,
+        190234.33742084246,
+        190234.33742084246,
+        190234.33742084246,
+        380468.67484168493,
+        380468.67484168493,
+        190234.33742084246,
+        190234.33742084246,
+        190234.33742084246,
+        190234.33742084246
+      ],
+      [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        -190234.33742084246,
+        190234.33742084246,
+        0.0,
+        195574.58499848307,
+        5340.2475776405945,
+        190234.33742084246,
+        190234.33742084246,
+        190234.33742084246,
+        380468.67484168493,
+        380468.67484168493,
+        190234.33742084246,
+        190234.33742084246,
+        190234.33742084246,
+        190234.33742084246
+      ],
+      [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        -184367.76345104387,
+        0.0,
+        190234.33742084246,
+        190234.33742084246,
+        190234.33742084246,
+        190234.33742084246,
+        190234.33742084246,
+        380468.67484168493,
+        380468.67484168493,
+        190234.33742084246,
+        190234.33742084246,
+        190234.33742084246,
+        190234.33742084246
+      ],
+      [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        -181004.853998942,
+        380468.67484168493,
+        190234.33742084246,
+        190234.33742084246,
+        190234.33742084246,
+        190234.33742084246,
+        190234.33742084246,
+        190234.33742084246,
+        380468.67484168493,
+        380468.67484168493,
+        380468.67484168493,
+        380468.67484168493
+      ],
+      [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        -189241.7815787983,
+        380468.67484168493,
+        380468.67484168493,
+        380468.67484168493,
+        380468.67484168493,
+        193136.88451299054,
+        380468.67484168493,
+        380468.67484168493,
+        380468.67484168493,
+        381002.6885137734,
+        570703.0122625274
+      ],
+      [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        -181004.853998942,
+        190234.33742084246,
+        190234.33742084246,
+        190234.33742084246,
+        190234.33742084246,
+        190234.33742084246,
+        380468.67484168493,
+        380468.67484168493,
+        380468.67484168493,
+        380468.67484168493
+      ],
+      [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        -190234.33742084246,
+        190234.33742084246,
+        0.0,
+        2902.54709214808,
+        0.0,
+        534.0136720884586,
+        190234.33742084246,
+        534.0136720884586,
+        0.0
+      ],
+      [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        -190234.33742084246,
+        5030.589578240083,
+        190234.33742084246,
+        2902.54709214808,
+        0.0,
+        534.0136720884586,
+        190234.33742084246,
+        534.0136720884586
+      ],
+      [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        -185306.55614132175,
+        4514.895459900527,
+        190234.33742084246,
+        0.0,
+        0.0,
+        5135.513311740498,
+        190234.33742084246
+      ],
+      [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        -190234.33742084246,
+        190234.33742084246,
+        0.0,
+        2487.3880443351495,
+        190234.33742084246,
+        2487.3880443351495
+      ],
+      [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        -188269.79872889668,
+        0.0,
+        0.0,
+        2487.3880443351495,
+        190234.33742084246
+      ],
+      [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        -189710.93230000325,
+        190234.33742084246,
+        190234.33742084246,
+        190234.33742084246
+      ],
+      [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        -190234.33742084246,
+        190234.33742084246,
+        190234.33742084246
+      ],
+      [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        -190234.33742084246,
+        190234.33742084246
+      ],
+      [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        -189710.93230000325
+      ]
+    ],
+    "reduced_qubo_offset": 0.0,
+    "remaining_variable_ids": [
+      0,
+      1,
+      2,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      15,
+      17,
+      18,
+      23,
+      26,
+      27,
+      28,
+      29,
+      30,
+      31
+    ],
+    "elimination_history": [
+      {
+        "method": "rqaoa_quantum_correlation",
+        "removed_variables": [
+          21
+        ],
+        "remaining_variables": 31,
+        "iteration": 1,
+        "correlation_value": 0.220703125,
+        "eliminated_variable": 21,
+        "kept_variable": 6,
+        "relation": "Zi = Zj",
+        "reduced_qubo_size": 31,
+        "previous_qubo_size": 32,
+        "shots": 2048,
+        "expectation_value_left": 1.0,
+        "expectation_value_right": 1.0,
+        "parameter_optimization": "shot_based_cobyla",
+        "circuit_runs": 5,
+        "optimizer_evaluations": 4,
+        "optimizer_shots": 512,
+        "total_shots": 4096
+      },
+      {
+        "method": "rqaoa_quantum_correlation",
+        "removed_variables": [
+          14
+        ],
+        "remaining_variables": 30,
+        "iteration": 2,
+        "correlation_value": 0.1376953125,
+        "eliminated_variable": 14,
+        "kept_variable": 6,
+        "relation": "Zi = Zj",
+        "reduced_qubo_size": 30,
+        "previous_qubo_size": 31,
+        "shots": 2048,
+        "expectation_value_left": 1.0,
+        "expectation_value_right": 1.0,
+        "parameter_optimization": "transferred_p1",
+        "circuit_runs": 1,
+        "optimizer_evaluations": 0,
+        "optimizer_shots": 0,
+        "total_shots": 2048
+      },
+      {
+        "method": "rqaoa_quantum_correlation",
+        "removed_variables": [
+          20
+        ],
+        "remaining_variables": 29,
+        "iteration": 3,
+        "correlation_value": 0.1220703125,
+        "eliminated_variable": 20,
+        "kept_variable": 6,
+        "relation": "Zi = Zj",
+        "reduced_qubo_size": 29,
+        "previous_qubo_size": 30,
+        "shots": 2048,
+        "expectation_value_left": 1.0,
+        "expectation_value_right": 1.0,
+        "parameter_optimization": "transferred_p1",
+        "circuit_runs": 1,
+        "optimizer_evaluations": 0,
+        "optimizer_shots": 0,
+        "total_shots": 2048
+      },
+      {
+        "method": "rqaoa_quantum_correlation",
+        "removed_variables": [
+          22
+        ],
+        "remaining_variables": 28,
+        "iteration": 4,
+        "correlation_value": 0.1044921875,
+        "eliminated_variable": 22,
+        "kept_variable": 6,
+        "relation": "Zi = Zj",
+        "reduced_qubo_size": 28,
+        "previous_qubo_size": 29,
+        "shots": 2048,
+        "expectation_value_left": 1.0,
+        "expectation_value_right": 1.0,
+        "parameter_optimization": "transferred_p1",
+        "circuit_runs": 1,
+        "optimizer_evaluations": 0,
+        "optimizer_shots": 0,
+        "total_shots": 2048
+      },
+      {
+        "method": "rqaoa_quantum_correlation",
+        "removed_variables": [
+          6
+        ],
+        "remaining_variables": 27,
+        "iteration": 5,
+        "correlation_value": 0.115234375,
+        "eliminated_variable": 6,
+        "kept_variable": 4,
+        "relation": "Zi = Zj",
+        "reduced_qubo_size": 27,
+        "previous_qubo_size": 28,
+        "shots": 2048,
+        "expectation_value_left": 1.0,
+        "expectation_value_right": 1.0,
+        "parameter_optimization": "transferred_p1",
+        "circuit_runs": 1,
+        "optimizer_evaluations": 0,
+        "optimizer_shots": 0,
+        "total_shots": 2048
+      },
+      {
+        "method": "rqaoa_quantum_correlation",
+        "removed_variables": [
+          5
+        ],
+        "remaining_variables": 26,
+        "iteration": 6,
+        "correlation_value": 0.0986328125,
+        "eliminated_variable": 5,
+        "kept_variable": 4,
+        "relation": "Zi = Zj",
+        "reduced_qubo_size": 26,
+        "previous_qubo_size": 27,
+        "shots": 2048,
+        "expectation_value_left": 1.0,
+        "expectation_value_right": 1.0,
+        "parameter_optimization": "transferred_p1",
+        "circuit_runs": 1,
+        "optimizer_evaluations": 0,
+        "optimizer_shots": 0,
+        "total_shots": 2048
+      },
+      {
+        "method": "rqaoa_quantum_correlation",
+        "removed_variables": [
+          25
+        ],
+        "remaining_variables": 25,
+        "iteration": 7,
+        "correlation_value": 0.078125,
+        "eliminated_variable": 25,
+        "kept_variable": 16,
+        "relation": "Zi = Zj",
+        "reduced_qubo_size": 25,
+        "previous_qubo_size": 26,
+        "shots": 2048,
+        "expectation_value_left": 1.0,
+        "expectation_value_right": 1.0,
+        "parameter_optimization": "transferred_p1",
+        "circuit_runs": 1,
+        "optimizer_evaluations": 0,
+        "optimizer_shots": 0,
+        "total_shots": 2048
+      },
+      {
+        "method": "rqaoa_quantum_correlation",
+        "removed_variables": [
+          16
+        ],
+        "remaining_variables": 24,
+        "iteration": 8,
+        "correlation_value": 0.0712890625,
+        "eliminated_variable": 16,
+        "kept_variable": 4,
+        "relation": "Zi = Zj",
+        "reduced_qubo_size": 24,
+        "previous_qubo_size": 25,
+        "shots": 2048,
+        "expectation_value_left": 1.0,
+        "expectation_value_right": 1.0,
+        "parameter_optimization": "transferred_p1",
+        "circuit_runs": 1,
+        "optimizer_evaluations": 0,
+        "optimizer_shots": 0,
+        "total_shots": 2048
+      },
+      {
+        "method": "rqaoa_quantum_correlation",
+        "removed_variables": [
+          24
+        ],
+        "remaining_variables": 23,
+        "iteration": 9,
+        "correlation_value": 0.0810546875,
+        "eliminated_variable": 24,
+        "kept_variable": 4,
+        "relation": "Zi = Zj",
+        "reduced_qubo_size": 23,
+        "previous_qubo_size": 24,
+        "shots": 2048,
+        "expectation_value_left": 1.0,
+        "expectation_value_right": 1.0,
+        "parameter_optimization": "transferred_p1",
+        "circuit_runs": 1,
+        "optimizer_evaluations": 0,
+        "optimizer_shots": 0,
+        "total_shots": 2048
+      },
+      {
+        "method": "rqaoa_quantum_correlation",
+        "removed_variables": [
+          3
+        ],
+        "remaining_variables": 22,
+        "iteration": 10,
+        "correlation_value": 0.0751953125,
+        "eliminated_variable": 3,
+        "kept_variable": 0,
+        "relation": "Zi = Zj",
+        "reduced_qubo_size": 22,
+        "previous_qubo_size": 23,
+        "shots": 2048,
+        "expectation_value_left": 1.0,
+        "expectation_value_right": 1.0,
+        "parameter_optimization": "transferred_p1",
+        "circuit_runs": 1,
+        "optimizer_evaluations": 0,
+        "optimizer_shots": 0,
+        "total_shots": 2048
+      },
+      {
+        "method": "rqaoa_quantum_correlation",
+        "removed_variables": [
+          19
+        ],
+        "remaining_variables": 21,
+        "iteration": 11,
+        "correlation_value": 0.0771484375,
+        "eliminated_variable": 19,
+        "kept_variable": 13,
+        "relation": "Zi = Zj",
+        "reduced_qubo_size": 21,
+        "previous_qubo_size": 22,
+        "shots": 2048,
+        "expectation_value_left": 1.0,
+        "expectation_value_right": 1.0,
+        "parameter_optimization": "transferred_p1",
+        "circuit_runs": 1,
+        "optimizer_evaluations": 0,
+        "optimizer_shots": 0,
+        "total_shots": 2048
+      },
+      {
+        "method": "rqaoa_quantum_correlation",
+        "removed_variables": [
+          4
+        ],
+        "remaining_variables": 20,
+        "iteration": 12,
+        "correlation_value": 0.0673828125,
+        "eliminated_variable": 4,
+        "kept_variable": 0,
+        "relation": "Zi = Zj",
+        "reduced_qubo_size": 20,
+        "previous_qubo_size": 21,
+        "shots": 2048,
+        "expectation_value_left": 1.0,
+        "expectation_value_right": 1.0,
+        "parameter_optimization": "transferred_p1",
+        "circuit_runs": 1,
+        "optimizer_evaluations": 0,
+        "optimizer_shots": 0,
+        "total_shots": 2048
+      }
+    ],
+    "reconstruction_map": [
+      {
+        "original_variable": 0,
+        "active_variable": 0,
+        "factor": 1.0,
+        "constant": 0.0
+      },
+      {
+        "original_variable": 1,
+        "active_variable": 1,
+        "factor": 1.0,
+        "constant": 0.0
+      },
+      {
+        "original_variable": 2,
+        "active_variable": 2,
+        "factor": 1.0,
+        "constant": 0.0
+      },
+      {
+        "original_variable": 3,
+        "active_variable": 0,
+        "factor": 1.0,
+        "constant": 0.0
+      },
+      {
+        "original_variable": 4,
+        "active_variable": 0,
+        "factor": 1.0,
+        "constant": 0.0
+      },
+      {
+        "original_variable": 5,
+        "active_variable": 0,
+        "factor": 1.0,
+        "constant": 0.0
+      },
+      {
+        "original_variable": 6,
+        "active_variable": 0,
+        "factor": 1.0,
+        "constant": 0.0
+      },
+      {
+        "original_variable": 7,
+        "active_variable": 7,
+        "factor": 1.0,
+        "constant": 0.0
+      },
+      {
+        "original_variable": 8,
+        "active_variable": 8,
+        "factor": 1.0,
+        "constant": 0.0
+      },
+      {
+        "original_variable": 9,
+        "active_variable": 9,
+        "factor": 1.0,
+        "constant": 0.0
+      },
+      {
+        "original_variable": 10,
+        "active_variable": 10,
+        "factor": 1.0,
+        "constant": 0.0
+      },
+      {
+        "original_variable": 11,
+        "active_variable": 11,
+        "factor": 1.0,
+        "constant": 0.0
+      },
+      {
+        "original_variable": 12,
+        "active_variable": 12,
+        "factor": 1.0,
+        "constant": 0.0
+      },
+      {
+        "original_variable": 13,
+        "active_variable": 13,
+        "factor": 1.0,
+        "constant": 0.0
+      },
+      {
+        "original_variable": 14,
+        "active_variable": 0,
+        "factor": 1.0,
+        "constant": 0.0
+      },
+      {
+        "original_variable": 15,
+        "active_variable": 15,
+        "factor": 1.0,
+        "constant": 0.0
+      },
+      {
+        "original_variable": 16,
+        "active_variable": 0,
+        "factor": 1.0,
+        "constant": 0.0
+      },
+      {
+        "original_variable": 17,
+        "active_variable": 17,
+        "factor": 1.0,
+        "constant": 0.0
+      },
+      {
+        "original_variable": 18,
+        "active_variable": 18,
+        "factor": 1.0,
+        "constant": 0.0
+      },
+      {
+        "original_variable": 19,
+        "active_variable": 13,
+        "factor": 1.0,
+        "constant": 0.0
+      },
+      {
+        "original_variable": 20,
+        "active_variable": 0,
+        "factor": 1.0,
+        "constant": 0.0
+      },
+      {
+        "original_variable": 21,
+        "active_variable": 0,
+        "factor": 1.0,
+        "constant": 0.0
+      },
+      {
+        "original_variable": 22,
+        "active_variable": 0,
+        "factor": 1.0,
+        "constant": 0.0
+      },
+      {
+        "original_variable": 23,
+        "active_variable": 23,
+        "factor": 1.0,
+        "constant": 0.0
+      },
+      {
+        "original_variable": 24,
+        "active_variable": 0,
+        "factor": 1.0,
+        "constant": 0.0
+      },
+      {
+        "original_variable": 25,
+        "active_variable": 0,
+        "factor": 1.0,
+        "constant": 0.0
+      },
+      {
+        "original_variable": 26,
+        "active_variable": 26,
+        "factor": 1.0,
+        "constant": 0.0
+      },
+      {
+        "original_variable": 27,
+        "active_variable": 27,
+        "factor": 1.0,
+        "constant": 0.0
+      },
+      {
+        "original_variable": 28,
+        "active_variable": 28,
+        "factor": 1.0,
+        "constant": 0.0
+      },
+      {
+        "original_variable": 29,
+        "active_variable": 29,
+        "factor": 1.0,
+        "constant": 0.0
+      },
+      {
+        "original_variable": 30,
+        "active_variable": 30,
+        "factor": 1.0,
+        "constant": 0.0
+      },
+      {
+        "original_variable": 31,
+        "active_variable": 31,
+        "factor": 1.0,
+        "constant": 0.0
+      }
+    ],
+    "qaoa_call_count": 14,
+    "aer_circuit_runs": 16,
+    "variables_removed": 12,
+    "reduction_percentage": 37.5,
+    "hardware_eligible": true,
+    "simulator_sample_feasible": true,
+    "result": {
+      "warehouse_id": "W1",
+      "route": [
+        "C6",
+        "C1",
+        "C5",
+        "C2"
+      ],
+      "energy": -729904.3413754872,
+      "feasible": true,
+      "bitstring": "01000001001010000000000000000000",
+      "original_variables": 32,
+      "reduced_variables": 20,
+      "reduction_ratio": 0.375,
+      "solver_sample_feasible": true,
+      "reduced_bitstring": "01010010100000000000",
+      "route_distance_km": 1584.9340300246502,
+      "travel_cost": 31033.008307882646
+    },
+    "feedback_history": [
+      {
+        "iteration": 1,
+        "feedback": "retained_best_feasible_incumbent",
+        "incumbent_energy": -729904.3413754872,
+        "simulator_sample_feasible": true
+      },
+      {
+        "iteration": 2,
+        "feedback": "retained_best_feasible_incumbent",
+        "incumbent_energy": -729904.3413754872,
+        "simulator_sample_feasible": true
+      }
+    ],
+    "solver": {
+      "name": "warm_start_qaoa_statevector",
+      "energy": -729904.3413754872,
+      "runtime_seconds": 147.8947463750028,
+      "backend": "statevector_simulator"
+    }
+  },
+  {
+    "cluster_id": 3,
+    "customer_ids": [
+      "C4",
+      "C7"
+    ],
+    "candidate_warehouses": [
+      "W2",
+      "W5"
+    ],
+    "warehouse_count": 2,
+    "position_count": 2,
+    "variable_count": 8,
+    "reduced_variable_count": 8,
+    "original_qubo_size": 8,
+    "reduced_qubo_size": 8,
+    "reduction_method": "rqaoa",
+    "reduced_qubo": [
+      [
+        -69318.07796248044,
+        74930.95704135037,
+        74930.95704135037,
+        2741.983195382868,
+        149861.91408270074,
+        149861.91408270074,
+        74930.95704135037,
+        74930.95704135037
+      ],
+      [
+        0.0,
+        -69318.07796248044,
+        2741.983195382868,
+        74930.95704135037,
+        149861.91408270074,
+        149861.91408270074,
+        74930.95704135037,
+        74930.95704135037
+      ],
+      [
+        0.0,
+        0.0,
+        -71948.12161545841,
+        74930.95704135037,
+        74930.95704135037,
+        74930.95704135037,
+        149861.91408270074,
+        149861.91408270074
+      ],
+      [
+        0.0,
+        0.0,
+        0.0,
+        -71948.12161545841,
+        74930.95704135037,
+        74930.95704135037,
+        149861.91408270074,
+        149861.91408270074
+      ],
+      [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        -68847.1787950492,
+        74930.95704135037,
+        74930.95704135037,
+        3174.9279104433213
+      ],
+      [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        -68847.1787950492,
+        3174.9279104433213,
+        74930.95704135037
+      ],
+      [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        -68686.71062123784,
+        74930.95704135037
+      ],
+      [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        -68686.71062123784
+      ]
+    ],
+    "reduced_qubo_offset": 0.0,
+    "remaining_variable_ids": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7
+    ],
+    "elimination_history": [],
+    "reconstruction_map": [
+      {
+        "original_variable": 0,
+        "active_variable": 0,
+        "factor": 1.0,
+        "constant": 0.0
+      },
+      {
+        "original_variable": 1,
+        "active_variable": 1,
+        "factor": 1.0,
+        "constant": 0.0
+      },
+      {
+        "original_variable": 2,
+        "active_variable": 2,
+        "factor": 1.0,
+        "constant": 0.0
+      },
+      {
+        "original_variable": 3,
+        "active_variable": 3,
+        "factor": 1.0,
+        "constant": 0.0
+      },
+      {
+        "original_variable": 4,
+        "active_variable": 4,
+        "factor": 1.0,
+        "constant": 0.0
+      },
+      {
+        "original_variable": 5,
+        "active_variable": 5,
+        "factor": 1.0,
+        "constant": 0.0
+      },
+      {
+        "original_variable": 6,
+        "active_variable": 6,
+        "factor": 1.0,
+        "constant": 0.0
+      },
+      {
+        "original_variable": 7,
+        "active_variable": 7,
+        "factor": 1.0,
+        "constant": 0.0
+      }
+    ],
+    "qaoa_call_count": 2,
+    "aer_circuit_runs": 0,
+    "variables_removed": 0,
+    "reduction_percentage": 0.0,
+    "hardware_eligible": true,
+    "simulator_sample_feasible": true,
+    "result": {
+      "warehouse_id": "W2",
+      "route": [
+        "C4",
+        "C7"
+      ],
+      "energy": -138524.21638255598,
+      "feasible": true,
+      "bitstring": "10010000",
+      "original_variables": 8,
+      "reduced_variables": 8,
+      "reduction_ratio": 0.0,
+      "solver_sample_feasible": true,
+      "reduced_bitstring": "10010000",
+      "route_distance_km": 1243.1686074720124,
+      "travel_cost": 11337.697700144752
+    },
+    "feedback_history": [
+      {
+        "iteration": 1,
+        "feedback": "retained_best_feasible_incumbent",
+        "incumbent_energy": -138524.21638255598,
+        "simulator_sample_feasible": true
+      },
+      {
+        "iteration": 2,
+        "feedback": "retained_best_feasible_incumbent",
+        "incumbent_energy": -138524.21638255598,
+        "simulator_sample_feasible": true
+      }
+    ],
+    "solver": {
+      "name": "warm_start_qaoa_statevector",
+      "energy": -138524.21638255598,
+      "runtime_seconds": 0.18769433399938862,
+      "backend": "statevector_simulator"
+    }
+  }
+]

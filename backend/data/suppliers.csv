@@ -1,0 +1,9 @@
+supplier_id,name,lat,lon,capacity,cost_per_unit,lead_time_days,reliability_score,is_active
+S1,Supplier_1,21.7454,81.6178,959,25.99,9,0.7,True
+S2,Supplier_2,27.5071,83.3292,1837,11.87,3,0.98,True
+S3,Supplier_3,25.3199,72.3294,521,48.95,5,0.87,True
+S4,Supplier_4,23.9866,87.5186,752,19.31,3,0.82,True
+S5,Supplier_5,19.5602,85.3191,1247,13.62,7,0.7,True
+S6,Supplier_6,19.5599,75.3974,1356,34.74,5,0.77,True
+S7,Supplier_7,18.5808,74.9092,974,25.3,9,0.77,True
+S8,Supplier_8,26.6618,74.9345,1582,49.33,7,0.9,True

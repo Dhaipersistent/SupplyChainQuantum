@@ -1,0 +1,11 @@
+customer_id,name,lat,lon,demand_units,priority,delivery_deadline_days
+C1,Customer_1,25.9717,78.9795,167,Medium,3
+C2,Customer_2,25.4294,84.4522,209,Low,3
+C3,Customer_3,20.4926,85.0502,145,Medium,5
+C4,Customer_4,26.1405,73.0973,265,Low,7
+C5,Customer_5,23.3147,80.1505,282,High,8
+C6,Customer_6,25.4595,78.8438,229,High,6
+C7,Customer_7,26.1687,76.1095,162,High,9
+C8,Customer_8,21.544,74.6781,111,High,2
+C9,Customer_9,19.8804,77.7266,290,Low,2
+C10,Customer_10,20.8235,86.2007,235,High,4
